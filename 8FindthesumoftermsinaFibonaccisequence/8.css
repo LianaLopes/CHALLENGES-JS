@@ -1,0 +1,5 @@
+body{
+    background-image: linear-gradient(to right, rgba(157, 255, 0, 0.664), rgba(15, 252, 134, 0.76));
+    color: rgb(68, 7, 7);
+    padding: 5px;
+}

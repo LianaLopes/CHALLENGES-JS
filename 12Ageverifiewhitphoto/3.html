@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercício 3 JS</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Age Verifier</h1>
+    </header>
+    <section>
+        <div>
+            <p class="p1"> Year of birth: 
+                <input type="number" id="txtyear" name="txtyear" min="0">
+            </p>
+            <p>Gender:<br> <!--quando for para escolher gêneros, precisa colocar radsex, caso não o faça, dará erro podendo marcar todas as bolinhas ao mesmo tempo e com isso erro no resultado-->
+                <label for="male"> Male</label> 
+                
+                <input type="radio" name="radsex" id="male"> 
+                
+                <label for="female">Female</label>
+
+                <input type="radio" name="radsex" id="female"> <br>
+            </p>
+            <p id=res1>
+                <input type="button" value="Verifier" onclick="verifier()">
+            </p>
+        </div>
+
+        <div id="res">
+            (Don't forget to answer above)
+            <img id="foto">
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy;LianaLopes</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+body {
+    background-image: linear-gradient(90deg, #30cfd0 0%, #330867 100%);
+}
+
+section {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    padding: 20px;
+    margin: auto;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 4px rgba(0, 0, 0, 0.452);
+}
+
+#res1 {
+    font-size: medium;
+    padding: 3px;
+    text-align: justify;
+}
+
+h1 {
+    text-align: center;
+    color: gold;
+}
+
+footer {
+    text-align: center;
+    padding: auto;
+    color: lawngreen;
+}

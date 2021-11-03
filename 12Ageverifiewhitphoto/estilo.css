@@ -1,0 +1,40 @@
+body {
+    background-color: indigo;
+}
+
+header {
+    color: lawngreen;
+    text-align: center;
+    font: 24px Arial;
+}
+
+section {
+    background: aqua;
+    color: black;
+    padding: 20px;
+    margin: auto;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.452);
+}
+
+div {
+    text-align: left;
+    font-size: x-large;
+}
+
+
+#res1,#res {
+    font-size: medium;
+    padding: 1px;
+    text-align: center;
+}
+
+footer {
+    color: lawngreen;
+    text-align: center;
+}
+
+.p2 {
+    text-align:center;
+}

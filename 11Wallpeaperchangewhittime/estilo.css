@@ -1,0 +1,29 @@
+body {
+    background-color: indigo;
+}
+
+header {
+    color: lawngreen;
+    text-align: center;
+}
+
+section {
+    background: aqua;
+    color: black;
+    padding: 10px;
+    margin: auto;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.452);
+}
+
+div {
+    text-align: center;
+    padding: 10px;
+    font-size: x-large;
+}
+
+footer {
+    color: lawngreen;
+    text-align: center;
+}
